@@ -59,3 +59,44 @@
            if (!checkScroll(skills_wrap)) return;
            skills_bar.forEach((skill) => (skill.style.width = skill.dataset.progress));
        }
+ // Image Slider
+ const sliderImages = document.querySelectorAll('.project-slider img');
+ let current = 0;
+
+ function nextSlide() {
+     sliderImages[current].style.display = 'none';
+     current = (current + 1) % sliderImages.length;
+     sliderImages[current].style.display = 'block';
+ }
+
+ setInterval(nextSlide, 3000);
+
+ // Form Validation
+ function validateForm(event) {
+     event.preventDefault();
+     const name = document.getElementById('name').value;
+     const email = document.getElementById('email').value;
+     const message = document.getElementById('message').value;
+
+     if (!name || !email || !message) {
+         alert('Please fill in all fields');
+         return;
+     }
+
+     alert('Form submitted successfully');
+ }
+
+ // Lightbox Modal
+ const lightbox = document.getElementById('lightbox');
+ const images = document.querySelectorAll('.project-slider img');
+
+ images.forEach((img) => {
+     img.addEventListener('click', function() {
+         lightbox.classList.add('active');
+         lightbox.querySelector('img').src = this.src;
+     });
+ });
+
+ function closeLightbox() {
+     lightbox.classList.remove('active');
+ }
