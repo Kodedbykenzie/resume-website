@@ -1,8 +1,8 @@
-/*===== Google Fonts =====*/
+/* Google Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/*===== Global CSS =====*/
+/* Colors used */
 
 :root {
     --main-color: #8e00a7;
@@ -145,7 +145,7 @@ img {
 }
 
 
-/*===== Navbar =====*/
+/* Navbar */
 
 .navbar {
     position: fixed;
@@ -265,7 +265,7 @@ img {
 }
 
 
-/*===== Home =====*/
+/* Home */
 
 .home-section {
     position: relative;
@@ -365,7 +365,7 @@ img {
 }
 
 
-/*===== About =====*/
+/* About */
 
 .about-section .about-image,
 .about-section .about-content {
@@ -477,7 +477,7 @@ img {
 }
 
 
-/*===== Services =====*/
+/* Services */
 
 .service-section {
     min-height: 100vh;
@@ -555,7 +555,7 @@ img {
     color: var(--black-100);
 }
 
-/*===== contact =====*/
+/* contact */
 
 .contact-section {
     min-height: 100vh;
