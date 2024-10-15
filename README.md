@@ -1,7 +1,3 @@
-Here's a sample `README.md` file for your one-page portfolio project. You can modify the content as needed based on your preferences:
-
----
-
 # One-Page Responsive Portfolio
 
 This is a one-page responsive portfolio website built using HTML, CSS, and JavaScript. It includes sections for an introduction, skills, projects, and contact information. The project is designed to be fully responsive, making it look great on desktops, tablets, and mobile devices.
@@ -84,4 +80,3 @@ If you have any questions or would like to collaborate, feel free to reach out:
 - **GitHub**: [KodedByKenzie](https://github.com/Kodedbykenzie)
 
 ---
-
